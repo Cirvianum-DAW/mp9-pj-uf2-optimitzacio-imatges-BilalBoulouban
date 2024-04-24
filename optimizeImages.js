@@ -2,6 +2,7 @@ const sharp = require('sharp');
 const fs = require('fs');
 
 const imagesToOptimize = [
+    //cafe
   {
     input: './src/img/cafe/pexels-pratik-gupta-2748538.jpg',
     output: './src/img/cafe/pexels-pratik-gupta-2748538_optimized.jpg',
@@ -17,6 +18,15 @@ const imagesToOptimize = [
   {
     input: './src/img/cafe/pexels-karolina-grabowska-4226806.jpg',
     output:'./src/img/cafe/pexels-karolina-grabowska-4226806_optimitzed.jpg',
+  },
+  //cake
+  {
+    input: './src/img/cake/pexels-valeria-boltneva-14107.jpg',
+    output: './src/img/cake/pexels-valeria-boltneva-14107_optimitzed.jpg',
+  },
+  {
+    input: './src/img/cake/pexels-valeria-boltneva-827513.jpg',
+    output: './src/img/cake/pexels-valeria-boltneva-827513_optimitzed.jpg',
   }
 ];
 
@@ -35,3 +45,5 @@ const optimizeImage = ({ input, output }) => {
 };
 
 imagesToOptimize.forEach(optimizeImage);
+
+
