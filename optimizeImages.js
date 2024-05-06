@@ -38,7 +38,7 @@ const optimizeImage = ({ input, output }) => {
       if (err) {
         console.error(`Error al optimizar la imagen ${input}:`, err);
       } else {
-        console.log(`Imagen optimizada y guardada correctamente: ${output}`);
+        console.log(`Imatge optimizada y guardada correctamente: ${output}`);
         console.log(info);
       }
     });
