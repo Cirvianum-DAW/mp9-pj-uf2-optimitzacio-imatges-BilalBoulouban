@@ -27,6 +27,10 @@ const imagesToOptimize = [
   {
     input: './src/img/cake/pexels-valeria-boltneva-827513.jpg',
     output: './src/img/cake/pexels-valeria-boltneva-827513_optimitzed.jpg',
+  },
+  {
+    input: './src/img/cafe/pexels-lisa-fotios-1833320.avif',
+    output: './src/img/cafe/pexels-lisa-fotios-1833320_optimitzed.avif',
   }
 ];
 
